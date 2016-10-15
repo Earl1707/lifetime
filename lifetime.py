@@ -39,11 +39,16 @@ class Lifetime():
 
     def lifemagic(self):
         #TODO calcolare i magic number con formula di approssimazione
-        diff_seconds = datetime.timedelta(seconds=2000000000)
         print('')
+        diff_seconds = datetime.timedelta(seconds=2000000000)
         print('2000000000 seconds will be {}'.format(self.birthday+diff_seconds))
+        diff_minutes = datetime.timedelta(minutes=30000000)
+        print('30000000 minutes will be {}'.format(self.birthday+diff_minutes))
         diff_hours = datetime.timedelta(hours=500000)
         print('500000 hours will be {}'.format(self.birthday + diff_hours))
+        diff_days = datetime.timedelta(days=20000)
+        print('20000 days will be {}'.format(self.birthday + diff_days))
+        #print('missing {} days'.format(20000-days))
 
     def refresh(self):
         if (self.refreshTime):
