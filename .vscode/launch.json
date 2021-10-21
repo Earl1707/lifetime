@@ -1,0 +1,17 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [        
+        
+        {
+            "name": "Python: lifetime.py",
+            "type": "python",
+            "request": "launch",
+            "program": "lifetime.py",
+            "args": ["-d", "17-07-1968", "-t", "18:17"],
+            "console": "integratedTerminal"
+        }
+    ]
+}

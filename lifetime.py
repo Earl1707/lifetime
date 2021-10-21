@@ -60,7 +60,7 @@ class Lifetime():
             except KeyboardInterrupt:
                 print(' ')
 
-def get_argoments():
+def get_arguments():
     '''This function parses and return arguments passed in'''
     # Assign description to the help doc
     parser = argparse.ArgumentParser(
@@ -88,7 +88,7 @@ def get_argoments():
 
 
 if __name__ == '__main__':
-    aDateTime, refreshTime = get_argoments()
+    aDateTime, refreshTime = get_arguments()
     lt = Lifetime(aDateTime, refreshTime)
     lt.lifepass()
     lt.lifemagic()
